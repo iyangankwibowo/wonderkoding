@@ -1,9 +1,9 @@
 #header
 {
-    height      : 10%;
-    font-size   : 1.5em;
-    text-align  :center;
-    padding-top : 20px;
+    height              : 10%;
+    font-size           : 1.5em;
+    text-align          : center;
+    padding-top         : 20px;
     background-image    : url(binatang1.jpeg);
     background-size     : 10%;
     background-repeat   : repeat-x;
@@ -20,7 +20,16 @@
     background-image    : url(ayam.jpg);
     background-size     : 80%;
     background-repeat   : no-repeat;
+}
 
+#content1
+{
+    float               : right;
+    width               : 70%;
+    height              : 400px;
+    font-size           : 1.5em;
+    text-align          : center;
+    padding-top         : 20px;
 }
 
 #sidebar2
@@ -37,6 +46,16 @@
 
 }
 
+#content2
+{
+    float               : right;
+    width               : 70%;
+    height              : 400px;
+    font-size           : 1.5em;
+    text-align          : center;
+    padding-top         : 20px;
+}
+
 #sidebar3
 {  
     float               : left;
@@ -51,27 +70,6 @@
 
 }
 
-#content1
-{
-    float               : right;
-    width               : 70%;
-    height              : 400px;
-    font-size           : 1.5em;
-    text-align          : center;
-    padding-top         : 20px;
-}
-
-#content2
-{
-    float               : right;
-    width               : 70%;
-    height              : 400px;
-    font-size           : 1.5em;
-    text-align          : center;
-    padding-top         : 20px;
-    background-repeat   : no-repeat;
-}
-
 #content3
 {
     float               : right;
@@ -80,18 +78,16 @@
     font-size           : 1.5em;
     text-align          : center;
     padding-top         : 20px;
-    background-repeat   : no-repeat;
 }
 
 #footer
 {
-    background          : #3399ff;
     clear               : both;
     font-size           : 1.5em;
-    text-align          :center;
+    text-align          : center;
     height              : 10%;
     padding-top         : 20px;
     background-image    : url(binatang2.jpeg);
-    background-size     : 10%;
+    background-size     : 15%;
     background-repeat   : repeat-x;
 }

@@ -10,7 +10,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Wonderkoding Pertemuan 6</title>
+    <title>Wonderkoding Pertemuan 8</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -26,18 +26,15 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
                     <li><a href="contact.php">Contact</a></li>
-                    <li><a href="table.php">Kawan Ku</a></li>
+                    <li><a href="teman.php">Kawan Ku</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="content">
             <h2>Kawan Ku</h2>
-
             <a href="add.php">Tambahkan data baru</a><br/><br/>
-
             <table width='80%' border=1 align="center">
-
             <tr bgcolor='#CCCCCC'>
                 <td>Name</td>
                 <td>Age</td>
